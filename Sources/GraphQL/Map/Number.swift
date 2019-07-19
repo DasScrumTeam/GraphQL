@@ -159,7 +159,7 @@ public struct Number {
 extension Number : Hashable {}
 
 extension Number : Equatable {
-    public static func == (lhs: Self, rhs: Self) -> Bool {
+    public static func == (lhs: Number, rhs: Number) -> Bool {
         return lhs._number == rhs._number
     }
 }
